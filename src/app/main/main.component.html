@@ -1,4 +1,6 @@
 <app-menu></app-menu>
-<div *ngFor="let character of characters">
-    <app-short-card [character]="character"></app-short-card>
+<div class="container">
+    <div *ngFor="let character of characters">
+        <app-short-card [character]="character"></app-short-card>
+    </div>
 </div>

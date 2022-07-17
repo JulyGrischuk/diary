@@ -8,7 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class ShortCardComponent implements OnInit {
 
   @Input()
-  character!: {name: string};
+  character!: {name: string, avatar: string};
 
   constructor() { }
 

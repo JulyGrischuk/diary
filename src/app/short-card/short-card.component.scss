@@ -1,0 +1,19 @@
+.container {
+    overflow: hidden;
+    position: relative;
+}
+
+.avatar {
+    display: block;
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+
+.name {
+    background: RGBA(255,255,255,0.49);
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
